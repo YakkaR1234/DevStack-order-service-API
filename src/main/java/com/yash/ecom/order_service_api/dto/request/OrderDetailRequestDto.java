@@ -1,4 +1,4 @@
-package com.yash.ecom.order_service_api.dto;
+package com.yash.ecom.order_service_api.dto.request;
 
 
 import lombok.AllArgsConstructor;

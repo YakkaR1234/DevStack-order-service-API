@@ -1,6 +1,6 @@
-package com.yash.ecom.order_service_api.dto;
+package com.yash.ecom.order_service_api.dto.request;
 
-import com.yash.ecom.order_service_api.entity.OrderDetail;
+import com.yash.ecom.order_service_api.dto.request.OrderDetailRequestDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

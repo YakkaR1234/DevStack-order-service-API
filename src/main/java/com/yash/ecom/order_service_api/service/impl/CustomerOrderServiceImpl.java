@@ -1,7 +1,7 @@
 package com.yash.ecom.order_service_api.service.impl;
 
-import com.yash.ecom.order_service_api.dto.OrderRequestDto;
-import com.yash.ecom.order_service_api.dto.OrderDetailRequestDto;
+import com.yash.ecom.order_service_api.dto.request.OrderRequestDto;
+import com.yash.ecom.order_service_api.dto.request.OrderDetailRequestDto;
 import com.yash.ecom.order_service_api.entity.CustomerOrder;
 import com.yash.ecom.order_service_api.entity.OrderDetail;
 import com.yash.ecom.order_service_api.entity.OrderStatus;
