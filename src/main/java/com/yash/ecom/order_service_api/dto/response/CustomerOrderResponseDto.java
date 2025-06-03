@@ -13,6 +13,7 @@ import java.util.ArrayList;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class CustomerOrderResponseDto {
 
     private String orderId;

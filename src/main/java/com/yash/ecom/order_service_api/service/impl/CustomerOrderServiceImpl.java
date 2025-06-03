@@ -45,6 +45,17 @@ public class CustomerOrderServiceImpl implements CustomerOrderService {
         customerOrderRepo.save(customerOrder);
     }
 
+    public CustomerOrderResponseDto findOrderId(String orderId){
+        CustomerOrder customerOrder=customerOrderRepo.findById(orderId).orElseThrow(()->new RuntimeException(String.format("order not found",orderId)));
+
+    }
+
+    private CustomerOrderResponseDto.builder()
+            .orderId(customerOrder.getOrderId())
+            .orderDate(customerOrder.getOrderDate())
+            .user(customerOrder.getUserId())
+            .order
+
     private OrderDetail createOrderDetail(OrderDetailRequestDto detailDto, CustomerOrder order) {
         if (detailDto == null) {
             return null;
